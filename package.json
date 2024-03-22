@@ -1,0 +1,54 @@
+{
+  "name": "quidemeos",
+  "version": "1.6.0",
+  "description": "The most efficient JS implementation calculating the Levenshtein distance, i.e. the difference between two strings.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LavonPrice/quidemeos.git"
+  },
+  "author": "AvaYost",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "bench": "matcha bench.js"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "keywords": [
+    "error",
+    "sunt",
+    "quas",
+    "fugit",
+    "string",
+    "error",
+    "omnis",
+    "fast",
+    "fuzzy",
+    "temporibus",
+    "similarity",
+    "compare",
+    "sint",
+    "qui",
+    "text",
+    "molestiae",
+    "est"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "fast-levenshtein": "^2.0.6",
+    "levenshtein-edit-distance": "^2.0.3",
+    "matcha": "^0.7.0",
+    "talisman": "^0.21.0",
+    "leven": "^2.1.0",
+    "xo": "^0.23.0"
+  },
+  "bugs": {
+    "url": "https://github.com/LavonPrice/quidemeos.git/issues"
+  }
+}
